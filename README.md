@@ -36,7 +36,7 @@ it was worth **0.00 PPS**. That difference is the entire point of this project.
 
 ![EV Comparison](https://i.imgur.com/ASyYOAK.png)
 
-![Radar Profiles](blob:https://imgur.com/8af90ad1-09cd-40bc-a97d-bfc6a10b12e0)
+![Radar Profiles](https://i.imgur.com/znvrJTk.png)
 
 ## Methodology
 

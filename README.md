@@ -32,11 +32,11 @@ it was worth **0.00 PPS**. That difference is the entire point of this project.
 
 ## Shot Quality Signatures
 
-![SqO Heatmaps](https://i.imgur.com/sMkgqTx.png)
+![SqO Heatmaps](outputs/sqo_signatures.png)
 
-![EV Comparison](https://i.imgur.com/ASyYOAK.png)
+![EV Comparison](outputs/sqo_ev_comparison.png)
 
-![Radar Profiles](https://i.imgur.com/znvrJTk.png)
+![Radar Profiles](outputs/sqo_radar.png)
 
 ## Methodology
 
@@ -68,7 +68,7 @@ Python · nba_api · NumPy · SciPy · Pandas · Matplotlib
 pip install nba_api scipy matplotlib numpy pandas
 ```
 
-Then run `sqo_notebook.ipynb` in Google Colab or Jupyter.
+Then run `SQO.ipynb` in Google Colab or Jupyter.
 
 ## Players Covered
 
@@ -90,7 +90,7 @@ To add any player, find their NBA Stats ID and add to the `PLAYERS` list.
 
 ## Research Paper
 
-Full write-up in `/paper/sqo_paper.pdf` covering methodology, 
+Full write-up in `/paper/SQO_Paper.pdf` covering methodology, 
 related work (Goldsberry 2012, Cervone et al. 2014), and findings.
 
 ## References

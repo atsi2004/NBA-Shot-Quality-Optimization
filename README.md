@@ -100,9 +100,3 @@ related work (Goldsberry 2012, Cervone et al. 2014), and findings.
 3. Franks et al. (2015). Counterpoints. MIT Sloan Sports Analytics Conference.
 4. Diggle, P.J. (2013). Statistical Analysis of Spatial Point Patterns. CRC Press.
 5. [nba_api](https://github.com/swar/nba_api)
-
-.gitignore:
-__pycache__/
-.ipynb_checkpoints/
-*.pyc
-.DS_Store

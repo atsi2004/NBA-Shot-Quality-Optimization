@@ -32,11 +32,11 @@ it was worth **0.00 PPS**. That difference is the entire point of this project.
 
 ## Shot Quality Signatures
 
-![SqO Heatmaps](outputs/sqo_signatures.png)
+![SqO Heatmaps](https://i.imgur.com/sMkgqTx.png)
 
-![EV Comparison](outputs/sqo_ev_comparison.png)
+![EV Comparison](https://i.imgur.com/ASyYOAK.png)
 
-![Radar Profiles](outputs/sqo_radar.png)
+![Radar Profiles](blob:https://imgur.com/8af90ad1-09cd-40bc-a97d-bfc6a10b12e0)
 
 ## Methodology
 

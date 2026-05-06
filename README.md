@@ -60,3 +60,49 @@ outside the arc, revealing subtle efficiency gradients hidden by the
 2pt vs 3pt value difference.
 
 ## Tech Stack
+Python · nba_api · NumPy · SciPy · Pandas · Matplotlib
+
+## Setup
+
+```bash
+pip install nba_api scipy matplotlib numpy pandas
+```
+
+Then run `sqo_notebook.ipynb` in Google Colab or Jupyter.
+
+## Players Covered
+
+The notebook runs on 5 players by default:
+- Stephen Curry (Elite Shooter)
+- Giannis Antetokounmpo (Rim Attacker)
+- DeMar DeRozan (Midrange Master)
+- Kevin Durant (Versatile Scorer)
+- Nikola Jokic (Post Scorer)
+
+To add any player, find their NBA Stats ID and add to the `PLAYERS` list.
+
+## Roadmap
+
+- [ ] Defender proximity conditioning (open vs contested surfaces)
+- [ ] Game-state context (shot clock, score differential, fatigue)
+- [ ] Opponent scouting module (defensive vulnerability maps)
+- [ ] Real-time REST API deployment
+
+## Research Paper
+
+Full write-up in `/paper/sqo_paper.pdf` covering methodology, 
+related work (Goldsberry 2012, Cervone et al. 2014), and findings.
+
+## References
+
+1. Goldsberry, K. (2012). CourtVision. MIT Sloan Sports Analytics Conference.
+2. Cervone et al. (2014). POINTWISE. MIT Sloan Sports Analytics Conference.
+3. Franks et al. (2015). Counterpoints. MIT Sloan Sports Analytics Conference.
+4. Diggle, P.J. (2013). Statistical Analysis of Spatial Point Patterns. CRC Press.
+5. [nba_api](https://github.com/swar/nba_api)
+
+.gitignore:
+__pycache__/
+.ipynb_checkpoints/
+*.pyc
+.DS_Store
